@@ -1,9 +1,9 @@
-import * as snap from "@farcaster/snap-hono";
+import { registerSnapHandler } from "@farcaster/snap-hono";
 import { Hono } from "hono";
 
 const app = new Hono();
 
-snap.registerSnapHandler(app, async (c) => {
+registerSnapHandler(app, async (c) => {
   return c.json({
     version: "2.0",
     title: "Frontier Tower Duelist Arena",
