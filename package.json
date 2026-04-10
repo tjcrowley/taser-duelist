@@ -1,0 +1,12 @@
+{
+  "name": "taser-duelist-v2",
+  "version": "2.0.0",
+  "dependencies": {
+    "hono": "^4.0.0",
+    "@farcaster/snap-hono": "latest",
+    "@farcaster/snap-turso": "latest"
+  },
+  "scripts": {
+    "dev": "hono dev"
+  }
+}
